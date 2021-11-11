@@ -15,7 +15,7 @@ import com.codename1.ui.util.Resources;
 public class TestApp extends Lifecycle {
     @Override
     public void runApp() {
-        Form hi = new Form("Hi World", BoxLayout.y());
+        Form hi = new Form("Hi from mac!", BoxLayout.y());
         Button helloButton = new Button("Hello World");
         hi.add(helloButton);
         helloButton.addActionListener(e -> hello());
